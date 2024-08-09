@@ -3,6 +3,7 @@ import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
 
 export default defineConfig({
+  base: './',
   css: {
     postcss: {
       plugins: [
@@ -11,4 +12,7 @@ export default defineConfig({
       ],
     },
   },
+  build: {
+    outDir: 'dist'
+  }
 });
