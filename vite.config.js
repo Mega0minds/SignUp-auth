@@ -18,6 +18,7 @@ export default defineConfig({
         main: './index.html',
         login: './login.html', 
         contsinup: './SignupCont.html',
+        dashboard: './dashboard.html',
       }
     }
   }
